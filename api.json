@@ -1,0 +1,21 @@
+{
+  "shared": true,
+  "cmd": "start",
+  "message": "Starte und lade Spiel",
+  "payload": {
+    "level": 1,
+    "player": {
+      "id": "guest",
+      "name": "Spieler"
+    },
+    "assets": [
+      "https://example.com/assets/sprites.png",
+      "https://example.com/assets/level1.json"
+    ],
+    "settings": {
+      "music": true,
+      "difficulty": "normal"
+    }
+  },
+  "timestamp": "2025-11-01T00:00:00Z"
+}
